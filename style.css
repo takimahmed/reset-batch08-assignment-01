@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inconsolata", monospace;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+p{
+    font-size: 15px;
+    line-height: 21px;
+}
+/* header start from here  */
+.header-main{
+    background-image: url(images/Group\ 102.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 20px;
+    margin-top:50px;
+    border-radius: 10px;
+}
+#header h4{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-bottom:20px
+}
+#header h1{
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+}
+/* Discount start from here  */
+#discount{
+    margin-top:80px;
+    text-align: center;
+}
+.discount-main h1{
+    font-size: 60px;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+.discount-main p{
+    color: #FF0000;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.discount-main h3{
+    font-size: 30px;
+    color:#000;
+    margin-bottom: 30px
+}
+.discount-main img{
+    width: 500px;
+}
+/* Welcome start from here  */
+#welcome{
+    margin-top: 80px
+}
+.welcome-main{
+    background-image: url(images/Group\ 103.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome-main .wc-left-area h1{
+    color:#fff;
+    font-size: 70px;
+}
+.welcome-main .wc-left-area p{
+    color:#fff;
+    width: 500px;
+    margin: 20px 0px;
+}
+.welcome-main .wc-left-area a{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.welcome-main .wc-right-area img{
+    width: 200px;
+}
+/* Start schedule start from here  */
+#start-schedule{
+    margin-top: 80px;
+}
+#start-schedule .start-schedule-main{
+    background: linear-gradient(180deg, #ff000021 0%, #fff 100%);
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+#start-schedule .start-schedule-main h3{
+    font-size: 25px;
+}
+#start-schedule .start-schedule-main h3 span{
+    color:#FF0000
+}
+#start-schedule .start-schedule-main a{
+     background: #FF0000;
+     color: #fff;
+     padding: 15px 40px;
+     text-decoration: none;
+     border-radius: 5px;
+     margin-top: 20px;
+}
+/* Coming soon start from here  */
+#coming-soon{
+    margin-top: 80px;
+}
+#coming-soon .coming-soon-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+#coming-soon .coming-soon-main .cm-left-area{
+    flex: 1;
+}
+#coming-soon .coming-soon-main .cm-left-area h4{
+    color: #FF0000;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#coming-soon .coming-soon-main .cm-left-area h2{
+    font-size: 50px;
+    color: #000;
+    margin: 15px 0px;
+}
+#coming-soon .coming-soon-main .cm-center-area{
+    flex: 1;
+}
+#coming-soon .coming-soon-main .cm-center-area img{
+    width: 300px;
+    padding: 20px;
+    border: 10px solid #FF0000;
+    border-radius: 1000px;
+}
+#coming-soon .coming-soon-main .cm-right-area{
+    flex: 1;
+}
+#coming-soon .coming-soon-main .cm-right-area h3{
+    font-size: 40px;
+    color: #FF0000;
+}
+#coming-soon .coming-soon-main .cm-right-area p{
+    margin: 15px 0px;
+    width: 250px;
+}
+#coming-soon .coming-soon-main .cm-right-area img{
+    width: 100px;
+}
+/* Holidya start from here  */
+#holiday{
+    margin-top: 80px;
+}
+#holiday .holiday-main{
+    text-align: center;
+}
+#holiday .holiday-main p{
+    width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#holiday .holiday-main h1{
+    font-size: 60px;
+    margin: 15px 0px;
+}
+#holiday .holiday-main h1 span{
+    color: #FF0000;
+}
+#holiday .holiday-main h6{
+    font-size: 18px;
+}
+#holiday .holiday-main img{
+    width: 100%;
+}
+/* Portfolio start from here  */
+#portfolio{
+    margin-top: 80px;
+}
+#portfolio .portfolio-main h6{
+    color: #FF0000;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#portfolio .portfolio-main h2{
+    font-size: 50px;
+    margin: 5px 0px;
+}
+#portfolio .portfolio-main p{
+    width: 700px;
+    margin-bottom: 40px;
+}
+#portfolio .portfolio-main .portfolio-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+#portfolio .portfolio-main .portfolio-images img{
+    width: 32%;
+}
+/* News letter start from here  */
+#news-letter{
+    margin-top: 80px;
+}
+#news-letter .newsletter-main{
+    text-align: center;
+    background: #ff000010;
+    padding: 50px;
+    border-radius: 10px;
+}
+#news-letter .newsletter-main img{
+    width: 80px;
+}
+#news-letter .newsletter-main h2{
+    font-size: 40px;
+    margin: 15px;
+}
+#news-letter .newsletter-main p{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#news-letter .newsletter-main form{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+#news-letter .newsletter-main form input[type='text']{
+    padding: 18px 25px;
+    border: none;
+    background: #fff;
+    margin: 0px;
+    gap: 0px;
+    border-radius: 50px 0px 0px 50px;
+}
+#news-letter .newsletter-main form input[type='button']{
+    padding: 18px 25px;
+    border: none;
+    background: #FF0000;
+    border-radius: 0px 50px 50px 0px;
+    color:#fff;
+    font-weight: 500;
+}
+/* Footer start from here  */
+#footer{
+    margin-top: 80px;
+    background: #070211;
+    color: #fff;
+    padding: 50px 0px;
+}
+#footer .footer-top-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+#footer .footer-top-area .fta-right .icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+#footer .footer-top-area .fta-right img{
+    width: 18px;
+}
+#footer  .footer-center-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-top: 1px solid #ffffff1f;
+    border-bottom: 1px solid #ffffff1f;
+    padding: 30px 0px;
+}
+#footer  .footer-center-area img{
+    width: 35px;
+}
+#footer .footer-bottom-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
